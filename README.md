@@ -6,11 +6,11 @@ return consistent results.
 
 
 **nanautocorr:**
-1. `[Test_nanautocorr_out,~] = nanautocorr(test_nanautocorr_in,2,1) ;`
+1. `[nanautocorr_test1_out,~] = nanautocorr(nanautocorr_test1_in,2,1) ;`
 
 **nanprewhite_arok:**
-1. `[test1_nanprewhite_ARok_out1, test1_nanprewhite_ARok_out2, test1_nanprewhite_ARok_out3] = nanprewhite_ARok(test1_nanprewhite_ARok_in);`
-2. `[test2_nanprewhite_ARok_out1, test2_nanprewhite_ARok_out2, test2_nanprewhite_ARok_out3] = nanprewhite_ARok(test2_nanprewhite_ARok_in,’alpha_ak’,90);`
+1. `[nanprewhite_arok_test1_out1, nanprewhite_arok_test1_out2, nanprewhite_arok_test1_out3] = nanprewhite_ARok(nanprewhite_arok_test1_in);`
+2. `[nanprewhite_arok_test2_out1, nanprewhite_arok_test2_out2, nanprewhite_arok_test2_out3] = nanprewhite_ARok(nanprewhite_arok_test2_in,’alpha_ak’,90);`
 
 **prewhite:**
-1. `test1_prewhite_D_out = prewhite_D(test1_prewhite_D_in,7,2);`
+1. `prewhite_test1_out = prewhite(prewhite_test1_in,7,2);`
