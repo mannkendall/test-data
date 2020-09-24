@@ -4,6 +4,9 @@
 The tests (in matlab syntax) are as follows. Running them in all codes is used to ensure that they
 return consistent results.
 
+**Kendall_var:**
+1. `Kendall_var_test1_out = Kendall_var(Kendall_var_test1_in1,Kendall_var_test1_in2,Kendall_var_test1_in3);
+
 **MK_tempAggr:**
 1. `MK_tempAggr_test1_out_default=MK_tempAggr(MK_tempAggr_test1_in,'3PW', 0.01);`
 2. `MK_tempAggr_test1_out_CL=MK_tempAggr(MK_tempAggr_test1_in,'3PW', 0.01,'alpha_MK',90,'alpha_ak',90,'alpha_CL',95,'alpha_Xhomo',95);`
