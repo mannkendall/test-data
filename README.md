@@ -27,3 +27,5 @@ return consistent results.
 1. `prewhite_test1_out = prewhite(prewhite_test1_in,7,2);`
 2. `prewhite_test2_out = prewhite(prewhite_test2_in,'scat',0.01);`
 
+**S_test:**
+1. `[S_test_test1_out1, S_test_test1_out2] = S_test(S_test_test1_in1,S_test_test1_in2);`
