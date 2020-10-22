@@ -6,7 +6,8 @@ return consistent results.
 
 **compute_MK_stat:**
 1. `[compute_MK_stat_test1_out1,compute_MK_stat_test1_out2,compute_MK_stat_test1_out3,compute_MK_stat_test1_out4]=compute_MK_stat(compute_MK_stat_test1_in1,compute_MK_stat_test1_in3,compute_MK_stat_test1_in3);`
-1. `[compute_MK_stat_test2_out1,compute_MK_stat_test2_out2,compute_MK_stat_test2_out3,compute_MK_stat_test2_out4]=compute_MK_stat(compute_MK_stat_test2_in1,compute_MK_stat_test2_in3,compute_MK_stat_test2_in3,'alpha_MK',90,'alpha_CL',95);`
+2. `[compute_MK_stat_test2_out1,compute_MK_stat_test2_out2,compute_MK_stat_test2_out3,compute_MK_stat_test2_out4]=compute_MK_stat(compute_MK_stat_test2_in1,compute_MK_stat_test2_in3,compute_MK_stat_test2_in3,'alpha_MK',90,'alpha_CL',95);`
+
 **Kendall_var:**
 1. `Kendall_var_test1_out = Kendall_var(Kendall_var_test1_in1,Kendall_var_test1_in2,Kendall_var_test1_in3);
 
